@@ -1,0 +1,22 @@
+* start_button: yes/no anstatt left/right
+* "!" implementieren
+* Backuppracticeblock für die Trottel
+* bei Sätzen irgendwie nur schwarz/grau anzeigen
+* Output (Zeichen)
+	% gedrückt 	, auch die genauen Zahlen, Misses pro Satz
+(davon) % korrekt (Zeichen)
+* Output (Zeichen)
+	% gedrückt 	, auch die genauen Zahlen, Misses pro Satz
+(davon) % korrekt von den letzten ausgeführten Presses pro Trial
+
+
+Kreuzung (für jeden Satz):
+- belegung: RL /LR
+- startbutton: 1/2
+
+* check if all relevant info is written
+	- mapping LR/mapping 1/2
+	- signal start / signal end
+* check that practice trial data are not overwritten
+
+	

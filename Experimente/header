@@ -1,0 +1,38 @@
+!EXP 'experiment'
+!COND 'condition'
+!STIM 'stimulus': u
+
+!SLOW_CYCLE 800
+#!MEDIUM_CYCLE 600
+!NORMAL_CYCLE 400
+
+# TODO: get rid of the 'start_button' option or ensure it works
+# DEFAULT TRIAL
+!SOUND_QUALITY 'sndFrequency': 500, 'sndDuration': 50
+!ITI_CROSS 'ITICross': 200, 'ITIBlank': 100, 'ITICrossRepeat': 3
+!RSVP_TIMING 'SOA': 400, 'ISI': 50
+!SOUND_TIMING 'signalOnset': -300-$NORMAL_CYCLE, 'signalCycle': $NORMAL_CYCLE, 'signalsCnt': 14 
+!RESPONSE_INDICATORS 'mappingIndicators': False, 'feedbackIndicators': False
+!DEFAULT_TRIAL 'expmode':'MR-SAT', 'mode':'CN', 'start_button':'R', $SOUND_QUALITY, $ITI_CROSS, $RSVP_TIMING, $SOUND_TIMING, $RESPONSE_INDICATORS, 'accuracyFeedbackDuration': 0
+
+!SENTENCE_GRAM   'grammatical': 'Y'
+!SENTENCE_UNGRAM 'grammatical': 'N'
+
+
+# TRIALTYPES 1a,b,c: SLOW_PRACTICE_ARROWS, MEDIUM_PRACTICE_ARROWS, NORMAL_PRACTICE_ARROWS
+!PRACTICE_ARROWS_INFO 'experiment':'PracticeArrows', 'grammatical':'?'
+!PRACTICE_ARROWS_TRIAL $PRACTICE_ARROWS_INFO, $DEFAULT_TRIAL, 'feedbackIndicators': True, 'accuracyFeedbackDuration': 2000
+
+!SLOW_PRACTICE_ARROWS   $PRACTICE_ARROWS_TRIAL, $COND: 'slow',   'signalCycle': $SLOW_CYCLE, 'signalOnset': -300
+#!MEDIUM_PRACTICE_ARROWS $PRACTICE_ARROWS_TRIAL, $COND: 'medium', 'signalCycle': $MEDIUM_CYCLE, 'signalOnset': -300
+!NORMAL_PRACTICE_ARROWS $PRACTICE_ARROWS_TRIAL, $COND: 'normal', 'signalCycle': $NORMAL_CYCLE, 'signalOnset': -300
+
+# practice experiment
+!PRACTICE_GRAM   $EXP:'practice', $COND:'gram',   $DEFAULT_TRIAL, $SENTENCE_GRAM,  'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'displaySentenceIfIncorrect': True
+!PRACTICE_UNGRAM $EXP:'practice', $COND:'ungram', $DEFAULT_TRIAL, $SENTENCE_UNGRAM, 'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'displaySentenceIfIncorrect': True
+
+# actual experiment
+!RACEARG_DECL 'experiment':'RACE.ARG'
+!RACE_ARG_GRAM $RACEARG_DECL, $DEFAULT_TRIAL, $SENTENCE_GRAM, 'feedbackIndicators': True
+!RACE_ARG_UNGRAM $RACEARG_DECL, $DEFAULT_TRIAL, $SENTENCE_UNGRAM, 'feedbackIndicators': True
+

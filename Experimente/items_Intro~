@@ -1,0 +1,252 @@
+%include header
+---
+In diesem Experiment werden Sie Sätze lesen und auf deren Akzeptabilität hin beurteilen. Manche dieser Sätze werden vollkommen akzeptabel sein, so wie z.B. dieser: "Der Peter liebt Kaffee."
+
+Manche werden aber inakzeptablel sein, so wie "Weil Nadine gestern müde ist, hatte sie keine Lust mehr was zu unternehmen.", "Dem Peter den Kaffee liebt es." Solche Sätze lässt die deutsche Grammatik nicht zu.
+---
+---
+Inakzeptable Sätze sind aber auch solche wie "Der Löffel liebt Kaffee." Dieser Sachverhalt ist absurd, weil Löffel nichts lieben können. Auch wenn dieser Satz, als Metapher verstanden, möglicherweise eine plausible Bedeutung haben könnte, ist er in seiner wörtlichen Bedeutung inakzeptabel, weil er absurd ist. Diesen Satz wird man von einem Sprecher des Deutschen nicht hören.
+---
+---
+Die Sätze, die sie beurteilen sollen, werden Ihnen Wort für Wort in der Mitte des Bildschirms präsentiert werden.
+ 	
+Im Folgenden sehen Sie ein Beispiel der Satzpräsentation.
+---
+{$PRACTICE_GRAM, 'item':0, $STIM'Der Adler könnte $ landen.'}
+---
+Während Sie den Satz lesen, wird eine Reihe von Signaltönen ertönen. Ihre Aufgabe wird es sein, zu jedem Signalton den Satz entweder als akzeptabel oder als inakzeptabel zu bewerten.
+ 
+Bevor das Experiment losgeht, möchten wir Sie mit der Aufgabe vertraut machen. 
+ 
+Die Übung wird aus drei Teilen bestehen.
+---
+---
+Dies ist der erste Teil der Übung. 
+
+Hierbei sollen Sie zunächst ein Gefühl dafür entwickeln, wie schnell Sie auf das Signal reagieren sollen.
+
+Im folgenden Übungsdurchlauf werden Sie eine nach links zeigende Pfeilspitze sehen und eine Sequenz von Signaltönen hören. Bitte drücken Sie nach jedem Signalton abwechselnd links und rechts, d.h. 'links' nach dem ersten Signalton, 'rechts' nach dem zweiten, 'links' nach dem dritten, usw.
+
+Um zu sehen, was mit den Kreisen passiert, in Abhängigkeit davon ob Sie die richtige oder die falsche Taste drücken, schauen Sie, während Sie die Tasten drücken, ab und an in die obere rechte Ecke.
+---
+{$SLOW_PRACTICE_ARROWS, 'item':0, $STIM'< $'}
+---
+In der oberen rechten Ecke sahen Sie mehrere graue Kreise, die in Abhängigkeit von ihren Tastendrücken ihre Farbe wechselten. Jeder Kreis steht für die Antwort zu einem Signalton. Falls Sie die richtige Taste drücken, färbt sich der dazugehörige Kreis grün. 
+Falls Sie die falsche Taste drücken, färbt er sich rot. Falls Sie die Taste zu *spät* oder zu *früh* drücken, bleibt der Kreis grau.
+
+Diese Kreise sollen Ihnen im Folgenden dazu dienen zu kontrollieren, wie gut Sie die Aufgabe erfüllen.
+---
+---
+Nach Abschluss jedes Übungsdurchlaufs können Sie nun die Anzahl verpasster Antworten(grau) überprüfen, sowie auch die Anzahl korrekter (grün) und inkorrekter (rot) Antworten. Die Kreise verfärben sich entsprechend.
+
+In diesem Teil der Übung ist es Ihre Aufgabe, immer 'links' zu drücken, wenn Sie eine nach links zeigende Pfeilspitze sehen, und 'rechts' wenn Sie eine nach rechts zeigende sehen. Manchmal wird die Pfeilspitze die Richtung wechseln, und machmal nicht.
+
+Ihre Antworten sollten fast gleichzeitig mit Signalton erfolgen. 
+
+Versuchen Sie es.
+---
+{$SLOW_PRACTICE_ARROWS, 'item':1, $STIM'> $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':2, $STIM'< $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':3, $STIM'> $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':4, $STIM'< $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':5, $STIM'> $'}     
+---
+Jetzt wird es ein bisschen schneller. In diesem Tempo werden Sie auch im Experiment reagieren müssen.
+---
+{$NORMAL_PRACTICE_ARROWS, 'item':1, $STIM'> $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':2, $STIM'< $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':3, $STIM'> $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':4, $STIM'< $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':5, $STIM'> $'}     
+---
+Im zweiten Teil der Übung wird sich die Richtung der Pfeilspitzen manchmal ändern, und Sie müssen die jeweils aktuelle Richtung angeben. Ziel ist es, auf evtl. Richtungsänderungen zu reagieren und jeden Signalton nach dem ersten zu treffen.
+
+Ihre Antworten sollten fast gleichzeitig mit Signalton erfolgen. Natürlich werden Sie die Taste nicht gleichzeitig mit dem ersten Ton drücken können, aber mit den nachfolgenden. Stellen Sie sich dafür auf den Rhythmus der Töne ein. Wenn Sie das gemacht haben, können Sie mit Leichtigkeit antizipieren, wann der nächste Ton kommen wird, und die Taste fast gleichzeitig mit dem Ton drücken können.
+
+Viel Erfolg!
+---
+{$NORMAL_PRACTICE_ARROWS, 'item':101, $STIM'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':102, $STIM'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':103, $STIM'> > $ > > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':104, $STIM'< < < < < $ < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':105, $STIM'< < < $ < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':106, $STIM'> > > > $ > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':107, $STIM'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':108, $STIM'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':109, $STIM'> $ > > > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':110, $STIM'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':111, $STIM'> > $ > > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':112, $STIM'< < < < $ < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':113, $STIM'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':114, $STIM'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':115, $STIM'< < < $ < < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':116, $STIM'< < $ < < < < >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':117, $STIM'> > > $ > > < >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':118, $STIM'> > $ > > > > <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':119, $STIM'< < < < $ < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':120, $STIM'< < $ < < > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':121, $STIM'> > > > > $ < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':122, $STIM'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':123, $STIM'> > > > > $ > <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':124, $STIM'> > > $ > > > <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':125, $STIM'< < $ < < < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':126, $STIM'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':127, $STIM'< < < < < $ > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':128, $STIM'> > $ > > < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':129, $STIM'> > $ > < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':130, $STIM'> > > < > $ > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':131, $STIM'> > < > > $ < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':132, $STIM'> > $ < < < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':133, $STIM'> > > $ > < < >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':134, $STIM'< < < $ > > > >'}
+---
+Dies ist der dritte Teil der Übung. Nun werden auf dem Bildschirm keine Pfeile mehr angezeigt, sondern Sätze. Diese erscheinen Wort für Wort in der Mitte des Bildschirms. Unten auf dem Bildschirm finden Sie auf einer Seite einen roten und auf der anderen Seite einen grünen Punkt. Grün steht für "akzeptabel", rot steht für "inakzeptabel". 
+Die Taste auf der entsprechenden Seite müssen Sie drücken, je nachdem ob Sie den Satz akzeptabel oder inakzeptabel finden.
+
+Diese Tastenbelegung wird sich im Verlaufe des Experiments nicht ändern.
+---
+---
+Mit 'akzeptabel' und 'inakzeptabel' ist in diesem Fall nicht gemeint, ob Ihr Deutschlehrer den Satz rot anstreichen würde.
+Uns geht es darum, ob Sie persönlich den Satz okay finden, oder nicht. 
+---
+---
+Irgendwann im Satz werden die Signaltöne einsetzen. Wenn Sie denken, dass der vollständige Satz akzeptabel ist, oder sein wird, drücken  Sie die Taste auf der Seite, auf der unten ein grüner Punkt angezeigt wird. Ansonsten drücken Sie die Taste auf der Seite, auf der ein roter Punkt angezeigt wird.
+
+Falls Sie noch nicht wissen, ob der Satz akzeptabel sein wird, weil Sie noch Zeit brauchen, um ihn zu verstehen, oder weil Sie ihn noch nicht vollständig gesehen haben, raten Sie einfach. Drücken Sie in diesem Fall nicht immer dieselbe Taste, sondern raten Sie entsprechend Ihrem 'Bauchgefühl'.
+
+Viel Erfolg!
+---
+{$PRACTICE_GRAM,   'item':1, $STIM'Der junge Polizist stellte dem_Zeugen die entscheidende $ Frage erst zum_Schluss.'}
+{$PRACTICE_UNGRAM, 'item':2, $STIM'Der_Fremde regnete dem_Vater $ einen_Hut.'}
+---
+Ist alles klar? Falls Sie Fragen haben, sollten Sie sie jetzt stellen.
+
+Nun geht es weiter.
+---
+{$PRACTICE_UNGRAM, 'item':3, $STIM'Die_Verkäuferin nichts schickte $ dem_Mädchen.'}
+{$PRACTICE_GRAM,   'item':4, $STIM'Manchmal schlägt Peter seinen Bruder $ am_Nachmittag.'}
+{$PRACTICE_UNGRAM, 'item':5, $STIM'Maria versteckte das_Hund unter $ der_Bettdecke.'}
+{$PRACTICE_GRAM,   'item':6, $STIM'Die dickliche Frau im blauen Kleid erzählte dem_Mann die ganze $ Geschichte.'}
+{$PRACTICE_UNGRAM, 'item':7, $STIM'Einem blondes Jungen kann man nicht $ trauen.'}
+{$PRACTICE_GRAM,   'item':8, $STIM'Der_Schüler warf dem_Lehrer Geld $ nach.'}
+{$PRACTICE_GRAM,   'item':9, $STIM'Der_Arzt besaß ein gutes $ Gedächtnis.'}
+{$PRACTICE_UNGRAM, 'item':10, $STIM'Ohne zu zögern trat die_Diebe die_Flucht $ an.'}
+{$PRACTICE_GRAM,   'item':11, $STIM'Es war der_Gärtner, der den_Schatz zu verstecken versucht $ hatte.'}
+{$PRACTICE_UNGRAM, 'item':12, $STIM'Ob wohl die_Gräfin über ärmere Menschen Wasser $ fabrizierte?'}
+{$PRACTICE_UNGRAM, 'item':13, $STIM'Dem_Vogel hatte dem_Jäger eine_Chance $ erteilt.'}
+{$PRACTICE_UNGRAM, 'item':14, $STIM'Angesichts seines Zustands der_Villa verblasste das_Leuchten in $ seinen_Augen.'}
+{$PRACTICE_GRAM,   'item':15, $STIM'Was sollte ein guter Frisör $ kosten?'}
+{$PRACTICE_UNGRAM, 'item':16, $STIM'Dem_Apfel fällt nichts weit $ vom_Stamm.'}
+{$PRACTICE_GRAM,   'item':17, $STIM'Es ist der_Pfarrer mit dem die_Bauerntochter in der_Nacht durchgebrannt $ ist.'}
+{$PRACTICE_GRAM,   'item':18, $STIM'Dem Peter hat er die_Schnürsenkel mehrfach $ verknotet.'}
+{$PRACTICE_UNGRAM, 'item':19, $STIM'Der_Bürgermeister seine Schlüssel auch nach langem Suchen $ nicht.'}
+{$PRACTICE_GRAM,   'item':20, $STIM'Doch Hans kannte diesen_Mann $ nicht.'}
+---
+Bitte lesen Sie *alle* folgenden Anweisungen *aufmerksam* durch, auch falls Sie denken, dass Sie die Aufgabe schon verstanden haben. Gehen bitte nicht davon aus, dass das blosse Überfliegen der Anweisungen ausreicht um die Aufgabe korrekt zu erfüllen, denn die Daten von Versuchspersonen, die auch nur bestimmte Teile der Anweisungen nicht befolgen sind für uns leider unbrauchbar.
+---
+---
+(1/8) Drücken Sie zu jedem Signalton eine Taste. Das ist *sehr wichtig*. Es ist sogar wichtiger, dass sie eine Taste drücken, als dass Sie die richtige Taste drücken. Versuchen Sie aber natürlich auch so früh wie möglich die richtige Taste zu drücken.
+---
+---
+(2/8) Manchmal werden Sie das Gefühl haben, dass Sie die Taste rechtzeitig gedrückt haben, dass dies aber nicht registriert wurde. 
+Auch wenn Sie sich absolut sicher sind, rechtzeitig gedrückt zu haben, so wird es in den meisten Fällen daran liegen, dass Sie ein wenig zu früh oder ein wenig zu spät gedrückt haben, denn der Tastendruck wird nur registriert, wenn er 200 ms vor dem Ton, oder 150 ms nach dem Ton erfolgt.
+Was zählt ist, wann die Taste gedrückt wird, nicht wann Sie losgelassen wird. Die Tastendrücke sollten möglichst gleichzeitig mit einem Ton erfolgen.
+---
+---
+(3/8) Vergessen Sie nicht: Die Frage, die Sie mit dem Drücken einer Tasten beantworten ist *nicht* 'Ist der Satz *bislang* akzeptabel?', sondern 'Ist der Satz *insgesamt* akzeptabel?'. Bitte beantworten Sie sie auch so.
+Das bedeutet: Wenn Sie noch nicht wissen, ob der Satz insgesamt akzeptabel ist, drücken Sie nicht immer die Taste für 'akzeptabel'. Damit würden Sie den Satz *bislang* bewerten. Wenn Sie die korrekte Antwort nicht wissen, raten Sie. Das heisst, drücken Sie einfach eine zufällige Taste und drücken Sie diese bis Sie das Gefühl haben, dass das die falsche Antwort ist. Wechseln Sie dann zur richtigen.
+---
+---
+(4/8) Sie müssen *nicht* vollkommen davon überzeugt sein dass die Taste,  die Sie bislang gedrückt haben die falsche ist, um zu einer anderen zu wechseln. Selbst bei einer leichten Tendenz zu einer anderen Antwort können Sie ruhig zur anderen Taste wechseln.
+---
+---
+(5/8) Die ersten Tastendrücke müssen nicht korrekt sein, aber es ist wichtig, dass der letzte Tastendruck es ist. Es geht in diesem Experiment darum zu messen, wie viele Tastendrücke Sie brauchen, bis Sie die korrekte Antwort gefunden haben. Bitte lesen Sie die Sätze aufmerksam durch und nehmen Sie eine Pause, falls Sie das Gefühl haben, dass Sie eine brauchen. 
+---
+---
+(6/8) Im Experiment werden Sie oft das Gefühl haben, dass Sätze sich wiederholen. Das stimmt nicht. Kein einziger Satz wird tatsächlich wiederholt. 
+Wiederholungen eines Satzes unterscheiden sich immer, wenn auch manchmal nur in Kleinigkeiten. Lesen Sie deshalb bitte jeden Satz aufmerksam, und gehen Sie nicht davon aus, dass Sie ihn vorher schon gelesen haben. 
+Bitte versuchen Sie nicht herauszufinden, was diese Kleinigkeiten sind, denn das wird Sie von der eigentlichen Aufgabe bloss ablenken, möglichst schnell die korrekte Antwort zu ermitteln. Konzentrieren Sie sich bitte stattdessen darauf, jeden Satz aufmerksam zu lesen.
+---
+---
+(7/8) Lassen Sie sich nicht davon beirren, dass die Aufgabe das natürliche Satzverständnis etwas schwerer macht. Versuchen Sie die Aufgabe so gut wie möglich zu erfüllen. 
+---
+---
+(8/8) Drücken Sie *keine* Tasten bevor Sie den ersten Ton hören und drücken Sie die Tasten nur im Rhythmus mit den Tönen - d.h. auch nicht zu oft.
+---
+---
+Nun bekommen Sie noch mal die Gelegenheit all dieses zu üben. 
+Danach wird es dann mit dem Experiment losgehen.
+---
+{$PRACTICE_GRAM, 'item': 118,  $STIM'Der Schauspielerin, welche die Tenöre zurückwies, ging ein Licht $ auf.'}
+{$PRACTICE_UNGRAM, 'item': 137,  $STIM'Sein_Linguist, der seine_Versuche macht, sein kaum $ berühmt.'}
+{$PRACTICE_UNGRAM, 'item': 151,  $STIM'Der_Maler, der mit seiner_Arbeit im_Verzug war, fiel gerade von $ den_Leitern.'}
+{$PRACTICE_GRAM, 'item': 157,  $STIM'Christoph wurde wieder einmal von einem nachsichtigen Richter auf Bewährung $ freigelassen.'}
+{$PRACTICE_GRAM, 'item': 160,  $STIM'Der alte Moderator aus dem Werbefernsehen sollte weniger Selbstbräunungscreme $ verwenden.'}
+{$PRACTICE_GRAM, 'item': 120,  $STIM'Dem jungen Guerillakämpfer zitterten vor_Angst $ die_Hände.'}
+{$PRACTICE_GRAM, 'item': 129,  $STIM'Der Pharmavertreter, der mit Ärzten befreundet ist, verdient $ viel.'}
+{$PRACTICE_UNGRAM, 'item': 155,  $STIM'Am_Sonntag verkaufte der_Bäcker so viele Brötchen, als $ Gurken.'}
+{$PRACTICE_UNGRAM, 'item': 164,  $STIM'Der_DJ wurde gestern Morgen nie wieder $ gesehen.'}
+{$PRACTICE_GRAM, 'item': 156,  $STIM'Beim Ausflug in den Zoo wurde die Erzieherin von einer Wespe $ gestochen.'}
+{$PRACTICE_UNGRAM, 'item': 135,  $STIM'Der_Nachbar hat nie den_Rasen gemäht, auch wenn der gar nicht gut $ aussähe.'}
+{$PRACTICE_UNGRAM, 'item': 146,  $STIM'Benjamin und Lisa vergaßen die_Klassenarbeit in Biologie und mussten ihm $ nachschreiben.'}
+---
+Vergessen Sie nicht: Sie müssen unbedingt zu jedem Ton eine Taste drücken.
+---
+{$PRACTICE_GRAM, 'item': 161,  $STIM'Der Student, der gestern abgeschrieben hat, ist seltsamerweise nicht erwischt $ worden.'}
+{$PRACTICE_GRAM, 'item': 126,  $STIM'Kunsthändler, die sich auf abstrakte Gemälde spezialisieren, sollte man $ betrügen.'}
+{$PRACTICE_GRAM, 'item': 158,  $STIM'Der Magier mit dem langen Bart hat seine Assistentin zum Picknick $ eingeladen.'}
+{$PRACTICE_GRAM, 'item': 150,  $STIM'Während Ulrike mit dem Fahrrad durch die Schrebergärten fuhr, fing es an zu $ regnen.'}
+{$PRACTICE_UNGRAM, 'item': 147,  $STIM'Diesmal schickte die_Großmutter die_Weihnachtsgeschenke schon $ von_November.'}
+{$PRACTICE_GRAM, 'item': 123,  $STIM'Die Einhörner, die man sucht, sollte man endlich in Ruhe $ lassen.'}
+{$PRACTICE_UNGRAM, 'item': 136,  $STIM'Das_Problem, wenn es gelöst ist, sieht einfach nur $ aus.'}
+{$PRACTICE_UNGRAM, 'item': 132,  $STIM'Der_Mann, der ein_Auto reparierte, war jemals $ ein_Forscher.'}
+{$PRACTICE_GRAM, 'item': 125,  $STIM'Der Wissenschaftler, den keiner von ihnen bemerkte, war $ betrunken.'}
+---
+Falls Sie nicht wissen ob der *ganze* Satz (nicht bloss der Teil, den Sie bislang gesehen haben) akzeptabel ist, drücken Sie im Folgenden die rechte Taste. Auch im Experiment wird Ihnen eine solche Taste vorgegeben werden. In unterschiedlichen Blöcken werden das unterschiedliche Tasten sein -- achten Sie also bitte auf die Anweisungen zu Beginn eines jeden Blocks. 
+---
+{$PRACTICE_UNGRAM, 'item': 154,  $STIM'Silke zahlte Helena das_Geld mit_Zinsen $ weg.'}
+# familiarization with experimental sentences (DAT, MASC)
+{$PRACTICE_GRAM, 'item': 250,  $STIM'Das Essen klaute der_Kellner angeblich $ dem_Kunden.'}
+{$PRACTICE_UNGRAM, 'item': 159,  $STIM'Nicht nur das Essen klaute Peters Rottweiler klaute das , die neulich ein Kind angefallen haben, muss eingeschläfert $ werden.'}
+{$PRACTICE_UNGRAM, 'item': 131,  $STIM'Ein_Kind, das keine_Ahnung hat, ist immer $ nicht.'}
+{$PRACTICE_UNGRAM, 'item': 152,  $STIM'Der_Schaffner wurde beim_Kontrollieren der_Fahrkarten von vielen Reisenden $ gegeben.'}
+# familiarization with experimental sentences (DAT, MASC)
+{$PRACTICE_GRAM, 'item': 251,  $STIM'Die lange Forschungsreise finanzierte wohl der_Billiardär $ dem_Archäologen.'}
+{$PRACTICE_GRAM, 'item': 119,  $STIM'Dem Manager wurden von einigen von ihnen Drohbriefe $ geschickt.'}
+# familiarization with experimental sentences (GEN, FEM)
+{$PRACTICE_GRAM, 'item': 201,  $STIM'Wer kennt schon den_Mann $ der_Philosphin?'}
+{$PRACTICE_UNGRAM, 'item': 163,  $STIM'Der_Obdachlose erzählten sich sehr interessante Geschichten $ an.'}
+# familiarization with experimental sentences (DAT, PL)
+{$PRACTICE_GRAM, 'item': 250,  $STIM'Seltsame Emails schrieb laut Thomas der_Hausmeister $ den_Kollegen.'}
+{$PRACTICE_GRAM, 'item': 148,  $STIM'Obwohl die Klavierlehrerin streng war, übte ihr Schüler nur selten und $ ungern.'}
+{$PRACTICE_GRAM, 'item': 145,  $STIM'Gestern hat Maria keine Bücher $ gelesen.'}
+{$PRACTICE_GRAM, 'item': 130,  $STIM'Den Forschern wurde eine großzügige Förderung $ zuteil.'}
+{$PRACTICE_UNGRAM, 'item': 149,  $STIM'Die_Agenten beeilten sich mit der_Gartenarbeit, damit sie rechtzeitig fertig $ wurde.'}
+{$PRACTICE_GRAM, 'item': 142,  $STIM'Peter und Karl haben keine Probleme, die Aufgaben schnell zu $ lösen.'}
+{$PRACTICE_UNGRAM, 'item': 121,  $STIM'Dem_Anwalt, der der_Minister verklagte, wurde die_Zulassung $ entzogen.'}
+{$PRACTICE_UNGRAM, 'item': 153,  $STIM'Im_Urlaub wurden der_Britta schon früh am_Morgen vom_Krähen des_Hahns $ geweckt.'}
+# familiarization with experimental sentences (GEN, MASC)
+{$PRACTICE_GRAM, 'item': 143,  $STIM'Mit viel Interesse grub der_Hund $ des_Seismologen.'}
+{$PRACTICE_UNGRAM, 'item': 162,  $STIM'Der dicke Türsteher weigert sich hartnäckig die_Schuhe $ reinzulassen.'}
+{$PRACTICE_GRAM, 'item': 144,  $STIM'Nie hat der Großvater Geschichten von damals $ erzählt.'}
+# familiarization with experimental sentences (GEN, FEM)
+{$PRACTICE_GRAM, 'item': 141,  $STIM'Ohne zu wissen warum, schrie der_Mann $ der_Bäckerin.'}
+{$PRACTICE_UNGRAM, 'item': 127,  $STIM'Dem_Rockstar, der ein_Drogenproblem hatte, wurde ein_Entzug $ verordneten.'}
+# familiarization with experimental sentences (DAT, FEM)
+{$PRACTICE_GRAM, 'item': 251,  $STIM'Das Gehalt kürzte der_Choleriker $ seiner_Sekretärin.'}
+# familiarization with experimental sentences (GEN, MASC)
+{$PRACTICE_GRAM, 'item': 202,  $STIM'Viele Besucher hörten die Rede $ des Politikers.'}
+# familiarization with experimental sentences (GEN, MASC)
+{$PRACTICE_GRAM, 'item': 3202,  $STIM'Einige ermahnten den Freund $ des Politikers.'}
+{$PRACTICE_GRAM, 'item': 203,  $STIM'Martha sah die Katze des Hausmeisters, $ die_jagte.'}
+{$PRACTICE_UNGRAM, 'item': 128,  $STIM'Der_Cowboy sind eigentlich studierter $ Chemiker.'}
+{$PRACTICE_GRAM, 'item': 122,  $STIM'Den Problembären will Stoiber keine Chance geben sich zu $ rehabilitieren.'}
+{$PRACTICE_GRAM, 'item': 210,  $STIM'An wen schickt man die Post des Vormieters, $ der_umgezogen_ist?'}
+{$PRACTICE_GRAM, 'item': 211,  $STIM'Hannibal schoss auf den Schergen des Bosses, $ der_weglief.'}
+{$PRACTICE_GRAM, 'item': 124,  $STIM'Kein_Polizist sollte Geld von der_Mafia $ bekommen.'}
+---
+Nun beginnt das Experiment. Es wird aus 16 relativ kurzen Blöcken von Sätzen 
+bestehen. Dazwischen werden Sie die Gelegenheit haben kurz zu entspannen. 
+Bitte machen Sie Gebrauch davon - vor allem wenn Sie merken, dass Ihre 
+Aufmerksamkeit nachlässt.
+---

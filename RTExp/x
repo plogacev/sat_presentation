@@ -1,0 +1,43 @@
+__init__.py:sys.argv = ["./runSAT.py", "EXPT.SPR", "1", "practice"]
+__init__.py:import runSAT
+Binary file audio_device.pyc matches
+config.py:	# mostly SAT settings
+config.py:	# both, SPR and SAT settings
+config.py:	sprFixationCrossCrossTime = 250 # TODO: implement this for SAT, too 
+config.py:	sprFixationCrossBlankTime = 150 # TODO: implement this for SAT, too 
+config.py:	# SAT settings
+Binary file config.pyc matches
+Binary file definitions.pyc matches
+Binary file feedback_device.pyc matches
+handler.py:class SATResponse(Event):
+Binary file handler.pyc matches
+Binary file question.pyc matches
+runSAT.py:from trial_sat import SATTrial
+runSAT.py:	print "runSAT.py: "+string
+runSAT.py:# TODO: StimulusDisplay seems to be quite obsolete with the new implementation of SAT and SPR presentation. Maybe it should be merged with InstructionDisplay.
+runSAT.py:	if s.__class__ == SATTrial:
+Binary file sine_wave_pyaudio.pyc matches
+Binary file sine_wave_pygame.pyc matches
+stimuli.py:from trial_sat import SATTrial
+stimuli.py:# TODO: convert "RSVP" to "SAT" or some such, a stimulus should have several parameters eventually: (a) presentation mode (moving window / centered), (b) window size in phrases/words, (c) self- or auto-paced, (d) SAT / other
+stimuli.py:			s = SATTrial(config, exp, item, cond, mode, 
+stimuli.py:			if arg['expmode'] == 'SAT':
+stimuli.py:				s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+Binary file stimuli.pyc matches
+Binary file tc.pyc matches
+Binary file text_display.pyc matches
+Binary file trial.pyc matches
+trial_sat.py:from handler import ITISleepStart, ITISleepEnd, SignalStart, SignalEnd, SATResponse 
+trial_sat.py:		print ("TRIAL.SAT (%s): "%get_time())+string
+trial_sat.py:class TrialScreenSAT(TrialScreen):
+trial_sat.py:# TODO: Create a common base class for SATTrial and SPRTrial in order to:
+trial_sat.py:class SATTrial(SATSPRTrialBase):
+trial_sat.py:		self.screen = TrialScreenSAT(config, text_phrases, 
+trial_sat.py:				s = SATResponse(interval_idx+1, 'NA', 'NA', 'NA', -1, -1)
+trial_sat.py:		s = SATResponse(interval, button, responseGrammatical, responseCorrect, RT, t)
+Binary file trial_sat.pyc matches
+trial_satspr_base.py:		print ("TRIAL.SATSPR.BASE (%s): "%get_time())+string
+trial_satspr_base.py:class SATSPRTrialBase(Trial):
+Binary file trial_satspr_base.pyc matches
+trial_spr.py:class SPRTrial(SATSPRTrialBase):
+Binary file trial_spr.pyc matches

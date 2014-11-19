@@ -1,0 +1,183 @@
+%include header
+---          
+Pause 8 von 15          
+---     
+---
+WICHTIG:
+Drücken Sie in den folgenden vier Blöcken anfangs die Taste für AKZEPTABEL, falls Sie noch gar kein Gefühl für den Satz haben. 
+
+Wechseln Sie dann ggf. zu einer anderen Taste sobald Sie das Gefühl haben, das sei nicht die richtige Antwort.
+---
+{$PRACTICE_UNGRAM, 'item': 15,  $STIM'Was kommt es vor, dass Anne und Maike die Aufgabe nicht $ putzen?'}
+{$RACE_ARG_UNGRAM, 'item':'38-13-24', $COND:'e', $STIM'Wem verzieh das deshalb der_Dekan $ dem_Professor?'}
+{$RACE_ARG_UNGRAM, 'item':'11-30-3', $COND:'j', $STIM'Was erklärte damals $ der_Löffel?'}
+{$RACE_ARG_UNGRAM, 'item':'2-36-3', $COND:'e', $STIM'Wem berichtete das damals der_Student $ dem_Archäologen?'}
+{$RACE_ARG_UNGRAM, 'item':'21-6-11', $COND:'j', $STIM'Was reparierte damals $ der_Injektor?'}
+{$RACE_ARG_GRAM, 'item':'6-4-1', $COND:'c', $STIM'Wem bot das deshalb der_Arzt $ des_Alkoholikers?'}
+{$RACE_ARG_UNGRAM, 'item':'36-23-35', $COND:'d', $STIM'Wem versprach das der_Hausmeister deshalb $ der_Unternehmerin?'}
+{$RACE_ARG_UNGRAM, 'item':'17-17-6', $COND:'d', $STIM'Wem garantierte das der_Fahrer deshalb $ der_Chefin?'}
+{$RACE_ARG_GRAM, 'item':'10-10-20', $COND:'c', $STIM'Wem entwendete das deshalb der_Bodyguard $ des_Milliardärs?'}
+{$RACE_ARG_GRAM, 'item':'15-29-37', $COND:'b', $STIM'Was erzählte der_Nachbar damals $ dem_Vermieter?'}
+{$RACE_ARG_GRAM, 'item':'1-19-28', $COND:'a', $STIM'Was befahl damals der_Fitnesstrainer $ der_Schauspielerin?'}
+{$RACE_ARG_UNGRAM, 'item':'27-16-25', $COND:'d', $STIM'Wem spendierte das der_Dozent deshalb $ der_Psychologin?'}
+{$RACE_ARG_GRAM, 'item':'22-13-7', $COND:'c', $STIM'Wem riet das deshalb der_Dekan $ des_Chemikers?'}
+{$RACE_ARG_GRAM, 'item':'31-38-38', $COND:'c', $STIM'Wem verheimlichte das deshalb der_Vermieter $ des_Verrückten?'}
+{$RACE_ARG_GRAM,   'item':'19-21-36', $COND:'i', $STIM'Wem lieferte das deshalb $ der_Journalist?'}
+{$RACE_ARG_UNGRAM, 'item':'35-35-20', $COND:'j', $STIM'Was versicherte deshalb $ der_Umweltschutz?'}
+{$RACE_ARG_UNGRAM, 'item':'33-20-13', $COND:'d', $STIM'Wem verriet das der_Friseur deshalb $ der_Gitarristin?'}
+{$RACE_ARG_GRAM, 'item':'12-29-29', $COND:'a', $STIM'Was erlaubte deshalb der_Nachbar $ der_Schlosserin?'}
+{$RACE_ARG_GRAM, 'item':'7-28-24', $COND:'a', $STIM'Was brachte damals der_Makler $ der_Professorin?'}
+{$RACE_ARG_GRAM, 'item':'4-31-21', $COND:'b', $STIM'Was bestellte der_Praktikant deshalb $ dem_Neurologen?'}
+{$RACE_ARG_UNGRAM, 'item':'3-8-25', $COND:'e', $STIM'Wem beschrieb das damals der_Besucher $ dem_Psychologen?'}
+{$RACE_ARG_UNGRAM, 'item':'10-26-12', $COND:'e', $STIM'Wem entwendete das deshalb der_Koch $ dem_Franzosen?'}
+{$RACE_ARG_UNGRAM, 'item':'21-7-37', $COND:'j', $STIM'Was reparierte damals $ das_Kamel?'}
+{$RACE_ARG_GRAM,   'item':'32-1-39', $COND:'i', $STIM'Wem verkaufte das damals $ der_Spion?'}
+{$RACE_ARG_GRAM,   'item':'9-32-8', $COND:'i', $STIM'Wem empfahl das damals $ der_Kenner?'}
+{$RACE_ARG_UNGRAM, 'item':'27-7-18', $COND:'e', $STIM'Wem spendierte das deshalb der_Bekannte $ dem_Kellner?'}
+{$RACE_ARG_GRAM, 'item':'29-4-31', $COND:'c', $STIM'Wem verbot das deshalb der_Arzt $ des_Sportlers?'}
+{$RACE_ARG_GRAM, 'item':'38-22-34', $COND:'c', $STIM'Wem verzieh das deshalb der_Guru $ des_Tänzers?'}
+{$RACE_ARG_GRAM,   'item':'18-28-27', $COND:'i', $STIM'Wem gestattete das deshalb $ der_Ingeneur?'}
+{$RACE_ARG_GRAM, 'item':'2-36-3', $COND:'b', $STIM'Was berichtete der_Student damals $ dem_Archäologen?'}
+{$RACE_ARG_GRAM, 'item':'30-27-21', $COND:'c', $STIM'Wem verdeutlichte das damals der_Kritiker $ des_Neurologen?'}
+{$RACE_ARG_UNGRAM, 'item':'31-39-19', $COND:'j', $STIM'Was verheimlichte deshalb $ der_Unterdruck?'}
+{$RACE_ARG_UNGRAM, 'item':'16-25-15', $COND:'f', $STIM'Was finanzierte der_Investor deshalb $ des_Informatikers?'}
+{$RACE_ARG_UNGRAM, 'item':'35-35-20', $COND:'e', $STIM'Wem versicherte das deshalb der_Steuerberater $ dem_Milliardär?'}
+{$RACE_ARG_GRAM, 'item':'24-30-13', $COND:'a', $STIM'Was schickte damals der_Pastor $ der_Gitarristin?'}
+{$RACE_ARG_UNGRAM, 'item':'27-7-18', $COND:'f', $STIM'Was spendierte der_Bekannte deshalb $ des_Kellners?'}
+{$RACE_ARG_UNGRAM, 'item':'26-24-2', $COND:'f', $STIM'Was skizzierte der_Innenausstatter damals $ des_Anwalts?'}
+{$RACE_ARG_GRAM, 'item':'31-38-38', $COND:'b', $STIM'Was verheimlichte der_Vermieter deshalb $ dem_Verrückten?'}
+{$RACE_ARG_UNGRAM, 'item':'38-22-34', $COND:'f', $STIM'Was verzieh der_Guru deshalb $ des_Tänzers?'}
+{$RACE_ARG_UNGRAM, 'item':'15-29-37', $COND:'f', $STIM'Was erzählte der_Nachbar damals $ des_Vermieters?'}
+{$RACE_ARG_GRAM, 'item':'32-1-39', $COND:'b', $STIM'Was verkaufte der_Angestellte damals $ dem_Vietnamesen?'}
+---          
+Pause 9 von 15          
+---     
+{$PRACTICE_UNGRAM, 'item': 65,  $STIM'Wieviele Handwerker übernahmen keinen Lehrling, obwohl einige $ zur_Auswahl?'}
+{$RACE_ARG_UNGRAM, 'item':'29-4-31', $COND:'e', $STIM'Wem verbot das deshalb der_Arzt $ dem_Sportler?'}
+{$RACE_ARG_UNGRAM, 'item':'12-29-29', $COND:'j', $STIM'Was erlaubte deshalb $ der_Einfluß?'}
+{$RACE_ARG_UNGRAM, 'item':'16-25-15', $COND:'d', $STIM'Wem finanzierte das der_Investor deshalb $ der_Informatikerin?'}
+{$RACE_ARG_GRAM, 'item':'21-6-11', $COND:'b', $STIM'Was reparierte der_Azubi damals $ dem_Fotografen?'}
+{$RACE_ARG_GRAM,   'item':'36-10-23', $COND:'i', $STIM'Wem versprach das deshalb $ der_Unbekannte?'}
+{$RACE_ARG_UNGRAM, 'item':'13-22-10', $COND:'d', $STIM'Wem erläuterte das der_Guru damals $ der_Esoterikerin?'}
+{$RACE_ARG_GRAM, 'item':'23-37-4', $COND:'a', $STIM'Was sagte damals der_Tanzlehrer $ der_Biologin?'}
+{$RACE_ARG_UNGRAM, 'item':'27-16-25', $COND:'e', $STIM'Wem spendierte das deshalb der_Dozent $ dem_Psychologen?'}
+{$RACE_ARG_GRAM, 'item':'2-9-9', $COND:'c', $STIM'Wem berichtete das damals der_Biograf $ des_Diplomaten?'}
+{$RACE_ARG_UNGRAM, 'item':'8-40-14', $COND:'f', $STIM'Was demonstrierte der_Yogalehrer deshalb $ des_Inders?'}
+{$RACE_ARG_UNGRAM, 'item':'32-1-39', $COND:'j', $STIM'Was verkaufte damals $ der_Stein?'}
+{$RACE_ARG_GRAM,   'item':'20-5-17', $COND:'i', $STIM'Wem präsentierte das damals $ der_Kanzler?'}
+{$RACE_ARG_GRAM, 'item':'25-5-2', $COND:'b', $STIM'Was schrieb der_Assistent damals $ dem_Anwalt?'}
+{$RACE_ARG_UNGRAM, 'item':'26-14-22', $COND:'d', $STIM'Wem skizzierte das der_Doktorand damals $ der_Polin?'}
+{$RACE_ARG_GRAM,   'item':'18-37-12', $COND:'i', $STIM'Wem gestattete das deshalb $ der_Eigentümer?'}
+{$RACE_ARG_UNGRAM, 'item':'16-18-28', $COND:'d', $STIM'Wem finanzierte das der_Fan deshalb $ der_Schauspielerin?'}
+{$RACE_ARG_UNGRAM, 'item':'6-12-10', $COND:'f', $STIM'Was bot der_Dealer damals $ des_Esoterikers?'}
+{$RACE_ARG_GRAM, 'item':'30-33-26', $COND:'a', $STIM'Was verdeutlichte damals der_Psychologe $ der_Raucherin?'}
+{$RACE_ARG_UNGRAM, 'item':'4-3-7', $COND:'d', $STIM'Wem bestellte das der_Apotheker damals $ der_Chemikerin?'}
+{$RACE_ARG_UNGRAM, 'item':'18-28-27', $COND:'j', $STIM'Was gestattete deshalb $ der_Injektor?'}
+{$RACE_ARG_UNGRAM, 'item':'9-32-8', $COND:'d', $STIM'Wem empfahl das der_Professor damals $ der_Dichterin?'}
+{$RACE_ARG_UNGRAM, 'item':'19-21-36', $COND:'f', $STIM'Was lieferte der_Gehilfe deshalb $ des_Verkäufers?'}
+{$RACE_ARG_GRAM, 'item':'20-16-32', $COND:'b', $STIM'Was präsentierte der_Dozent damals $ dem_Studenten?'}
+{$RACE_ARG_UNGRAM, 'item':'36-23-35', $COND:'f', $STIM'Was versprach der_Hausmeister deshalb $ des_Unternehmers?'}
+{$RACE_ARG_GRAM, 'item':'26-24-2', $COND:'a', $STIM'Was skizzierte damals der_Innenausstatter $ der_Anwältin?'}
+{$RACE_ARG_GRAM, 'item':'31-39-19', $COND:'b', $STIM'Was verheimlichte der_Vorgesetzte deshalb $ dem_Lehrer?'}
+{$RACE_ARG_UNGRAM, 'item':'22-20-40', $COND:'e', $STIM'Wem riet das deshalb der_Friseur $ dem_Arzt?'}
+{$RACE_ARG_GRAM, 'item':'16-18-28', $COND:'c', $STIM'Wem finanzierte das deshalb der_Fan $ des_Schauspielers?'}
+{$RACE_ARG_GRAM, 'item':'4-31-21', $COND:'a', $STIM'Was bestellte deshalb der_Praktikant $ der_Neurologin?'}
+{$RACE_ARG_UNGRAM, 'item':'13-33-19', $COND:'j', $STIM'Was erläuterte damals $ der_Frosch?'}
+{$RACE_ARG_UNGRAM, 'item':'23-15-17', $COND:'d', $STIM'Wem sagte das der_Dolmetscher damals $ der_Kanzlerin?'}
+{$RACE_ARG_UNGRAM, 'item':'37-21-6', $COND:'f', $STIM'Was verweigerte der_Gehilfe deshalb $ des_Chefs?'}
+{$RACE_ARG_GRAM, 'item':'11-9-8', $COND:'c', $STIM'Wem erklärte das damals der_Biograf $ des_Dichters?'}
+{$RACE_ARG_GRAM, 'item':'1-11-5', $COND:'b', $STIM'Was befahl der_Chef damals $ dem_Bäcker?'}
+{$RACE_ARG_GRAM, 'item':'20-16-32', $COND:'a', $STIM'Was präsentierte damals der_Dozent $ der_Studentin?'}
+{$RACE_ARG_GRAM,   'item':'35-35-20', $COND:'i', $STIM'Wem versicherte das deshalb $ der_Unterhändler?'}
+{$RACE_ARG_GRAM,   'item':'39-26-14', $COND:'i', $STIM'Wem wünschte das deshalb $ der_Kunde?'}
+{$RACE_ARG_GRAM, 'item':'6-4-1', $COND:'b', $STIM'Was bot der_Arzt deshalb $ dem_Alkoholiker?'}
+{$RACE_ARG_UNGRAM, 'item':'13-33-19', $COND:'d', $STIM'Wem erläuterte das der_Psychologe damals $ der_Lehrerin?'}
+{$RACE_ARG_UNGRAM, 'item':'36-10-23', $COND:'j', $STIM'Was versprach deshalb $ der_Unterdruck?'}
+---          
+Pause 10 von 15          
+---     
+{$PRACTICE_UNGRAM, 'item': 39,  $STIM'Wem darf ein_Arzt, der keinem_Patienten zuhört, $ sein_Auto?'}
+{$RACE_ARG_UNGRAM, 'item':'3-8-25', $COND:'j', $STIM'Was beschrieb damals $ der_Adler?'}
+{$RACE_ARG_UNGRAM, 'item':'25-5-2', $COND:'e', $STIM'Wem schrieb das damals der_Assistent $ dem_Anwalt?'}
+{$RACE_ARG_GRAM, 'item':'33-20-13', $COND:'a', $STIM'Was verriet deshalb der_Friseur $ der_Gitarristin?'}
+{$RACE_ARG_UNGRAM, 'item':'1-19-28', $COND:'e', $STIM'Wem befahl das damals der_Fitnesstrainer $ dem_Schauspieler?'}
+{$RACE_ARG_UNGRAM, 'item':'11-30-3', $COND:'e', $STIM'Wem erklärte das damals der_Pastor $ dem_Archäologen?'}
+{$RACE_ARG_UNGRAM, 'item':'3-31-9', $COND:'j', $STIM'Was beschrieb damals $ der_Barhocker?'}
+{$RACE_ARG_UNGRAM, 'item':'9-32-8', $COND:'j', $STIM'Was empfahl damals $ das_Kamel?'}
+{$RACE_ARG_GRAM, 'item':'27-16-25', $COND:'b', $STIM'Was spendierte der_Dozent deshalb $ dem_Psychologen?'}
+{$RACE_ARG_GRAM, 'item':'21-7-37', $COND:'b', $STIM'Was reparierte der_Bekannte damals $ dem_Vermieter?'}
+{$RACE_ARG_UNGRAM, 'item':'11-9-8', $COND:'f', $STIM'Was erklärte der_Biograf damals $ des_Dichters?'}
+{$RACE_ARG_UNGRAM, 'item':'15-11-18', $COND:'d', $STIM'Wem erzählte das der_Chef damals $ der_Kellnerin?'}
+{$RACE_ARG_GRAM, 'item':'36-10-23', $COND:'c', $STIM'Wem versprach das deshalb der_Bodyguard $ des_Politikers?'}
+{$RACE_ARG_GRAM,   'item':'31-38-38', $COND:'i', $STIM'Wem verheimlichte das deshalb $ der_Schurke?'}
+{$RACE_ARG_UNGRAM, 'item':'3-8-25', $COND:'f', $STIM'Was beschrieb der_Besucher damals $ des_Psychologen?'}
+{$RACE_ARG_GRAM,   'item':'21-6-11', $COND:'i', $STIM'Wem reparierte das damals $ der_Ingeneur?'}
+{$RACE_ARG_GRAM, 'item':'30-33-26', $COND:'b', $STIM'Was verdeutlichte der_Psychologe damals $ dem_Raucher?'}
+{$RACE_ARG_GRAM, 'item':'16-18-28', $COND:'b', $STIM'Was finanzierte der_Fan deshalb $ dem_Schauspieler?'}
+{$RACE_ARG_GRAM, 'item':'27-7-18', $COND:'b', $STIM'Was spendierte der_Bekannte deshalb $ dem_Kellner?'}
+{$RACE_ARG_GRAM, 'item':'11-30-3', $COND:'a', $STIM'Was erklärte damals der_Pastor $ der_Archäologin?'}
+{$RACE_ARG_UNGRAM, 'item':'40-24-27', $COND:'f', $STIM'Was zeigte der_Innenausstatter damals $ des_Rentners?'}
+{$RACE_ARG_UNGRAM, 'item':'9-15-22', $COND:'j', $STIM'Was empfahl damals $ der_Fahrstuhl?'}
+{$RACE_ARG_UNGRAM, 'item':'24-27-23', $COND:'j', $STIM'Was schickte deshalb $ der_Umweltschutz?'}
+{$RACE_ARG_GRAM, 'item':'13-22-10', $COND:'a', $STIM'Was erläuterte damals der_Guru $ der_Esoterikerin?'}
+{$RACE_ARG_GRAM,   'item':'8-40-14', $COND:'i', $STIM'Wem demonstrierte das deshalb $ der_Eigentümer?'}
+{$RACE_ARG_UNGRAM, 'item':'4-31-21', $COND:'e', $STIM'Wem bestellte das deshalb der_Praktikant $ dem_Neurologen?'}
+{$RACE_ARG_GRAM,   'item':'37-39-1', $COND:'i', $STIM'Wem verweigerte das deshalb $ der_Beamte?'}
+{$RACE_ARG_GRAM, 'item':'27-7-18', $COND:'a', $STIM'Was spendierte deshalb der_Bekannte $ der_Kellnerin?'}
+{$RACE_ARG_UNGRAM, 'item':'6-4-1', $COND:'f', $STIM'Was bot der_Arzt deshalb $ des_Alkoholikers?'}
+{$RACE_ARG_GRAM,   'item':'26-14-22', $COND:'i', $STIM'Wem skizzierte das damals $ der_Zeichner?'}
+{$RACE_ARG_UNGRAM, 'item':'22-13-7', $COND:'d', $STIM'Wem riet das der_Dekan deshalb $ der_Chemikerin?'}
+{$RACE_ARG_UNGRAM, 'item':'12-38-40', $COND:'d', $STIM'Wem erlaubte das der_Vermieter deshalb $ der_Ärztin?'}
+{$RACE_ARG_GRAM, 'item':'15-11-18', $COND:'a', $STIM'Was erzählte damals der_Chef $ der_Kellnerin?'}
+{$RACE_ARG_GRAM, 'item':'34-6-5', $COND:'b', $STIM'Was verschwieg der_Azubi deshalb $ dem_Bäcker?'}
+{$RACE_ARG_UNGRAM, 'item':'26-14-22', $COND:'f', $STIM'Was skizzierte der_Doktorand damals $ des_Polen?'}
+{$RACE_ARG_GRAM, 'item':'37-21-6', $COND:'a', $STIM'Was verweigerte deshalb der_Gehilfe $ der_Chefin?'}
+{$RACE_ARG_UNGRAM, 'item':'10-10-20', $COND:'f', $STIM'Was entwendete der_Bodyguard deshalb $ des_Milliardärs?'}
+{$RACE_ARG_GRAM, 'item':'19-17-33', $COND:'c', $STIM'Wem lieferte das deshalb der_Fahrer $ des_Sängers?'}
+{$RACE_ARG_UNGRAM, 'item':'12-29-29', $COND:'d', $STIM'Wem erlaubte das der_Nachbar deshalb $ der_Schlosserin?'}
+{$RACE_ARG_GRAM,   'item':'16-18-28', $COND:'i', $STIM'Wem finanzierte das deshalb $ der_Wahnsinnige?'}
+{$RACE_ARG_UNGRAM, 'item':'11-9-8', $COND:'j', $STIM'Was erklärte damals $ der_Einbruch?'}
+---          
+Pause 11 von 15          
+---     
+{$PRACTICE_UNGRAM, 'item': 16,  $STIM'Warum war dem Sänger, der die Tänzerinnen einfach ignorierte, $ mangelte?'}
+{$RACE_ARG_UNGRAM, 'item':'23-37-4', $COND:'f', $STIM'Was sagte der_Tanzlehrer damals $ des_Biologen?'}
+{$RACE_ARG_UNGRAM, 'item':'10-10-20', $COND:'d', $STIM'Wem entwendete das der_Bodyguard deshalb $ der_Milliardärin?'}
+{$RACE_ARG_GRAM,   'item':'12-29-29', $COND:'i', $STIM'Wem erlaubte das deshalb $ der_Experte?'}
+{$RACE_ARG_UNGRAM, 'item':'36-23-35', $COND:'j', $STIM'Was versprach deshalb $ der_Respekt?'}
+{$RACE_ARG_UNGRAM, 'item':'27-16-25', $COND:'j', $STIM'Was spendierte deshalb $ der_Preis?'}
+{$RACE_ARG_GRAM, 'item':'38-13-24', $COND:'c', $STIM'Wem verzieh das deshalb der_Dekan $ des_Professors?'}
+{$RACE_ARG_UNGRAM, 'item':'35-34-4', $COND:'e', $STIM'Wem versicherte das deshalb der_Schüler $ dem_Biologen?'}
+{$RACE_ARG_UNGRAM, 'item':'11-9-8', $COND:'d', $STIM'Wem erklärte das der_Biograf damals $ der_Dichterin?'}
+{$RACE_ARG_UNGRAM, 'item':'8-1-15', $COND:'e', $STIM'Wem demonstrierte das deshalb der_Angestellte $ dem_Informatiker?'}
+{$RACE_ARG_GRAM, 'item':'18-37-12', $COND:'b', $STIM'Was gestattete der_Tanzlehrer deshalb $ dem_Franzosen?'}
+{$RACE_ARG_UNGRAM, 'item':'39-26-14', $COND:'d', $STIM'Wem wünschte das der_Koch deshalb $ der_Inderin?'}
+{$RACE_ARG_GRAM, 'item':'37-21-6', $COND:'c', $STIM'Wem verweigerte das deshalb der_Gehilfe $ des_Chefs?'}
+{$RACE_ARG_UNGRAM, 'item':'30-27-21', $COND:'d', $STIM'Wem verdeutlichte das der_Kritiker damals $ der_Neurologin?'}
+{$RACE_ARG_GRAM, 'item':'23-15-17', $COND:'a', $STIM'Was sagte damals der_Dolmetscher $ der_Kanzlerin?'}
+{$RACE_ARG_GRAM, 'item':'26-24-2', $COND:'c', $STIM'Wem skizzierte das damals der_Innenausstatter $ des_Anwalts?'}
+{$RACE_ARG_UNGRAM, 'item':'27-7-18', $COND:'j', $STIM'Was spendierte deshalb $ der_Barhocker?'}
+{$RACE_ARG_GRAM, 'item':'38-13-24', $COND:'b', $STIM'Was verzieh der_Dekan deshalb $ dem_Professor?'}
+{$RACE_ARG_UNGRAM, 'item':'40-23-26', $COND:'e', $STIM'Wem zeigte das damals der_Hausmeister $ dem_Raucher?'}
+{$RACE_ARG_GRAM, 'item':'12-38-40', $COND:'b', $STIM'Was erlaubte der_Vermieter deshalb $ dem_Arzt?'}
+{$RACE_ARG_GRAM, 'item':'6-12-10', $COND:'a', $STIM'Was bot damals der_Dealer $ der_Esoterikerin?'}
+{$RACE_ARG_UNGRAM, 'item':'4-31-21', $COND:'f', $STIM'Was bestellte der_Praktikant deshalb $ des_Neurologen?'}
+{$RACE_ARG_UNGRAM, 'item':'14-2-35', $COND:'d', $STIM'Wem ermöglichte das der_Anwalt damals $ der_Unternehmerin?'}
+{$RACE_ARG_UNGRAM, 'item':'8-1-15', $COND:'f', $STIM'Was demonstrierte der_Angestellte deshalb $ des_Informatikers?'}
+{$RACE_ARG_GRAM, 'item':'28-36-30', $COND:'c', $STIM'Wem stahl das damals der_Student $ des_Soziologen?'}
+{$RACE_ARG_GRAM,   'item':'34-35-31', $COND:'i', $STIM'Wem verschwieg das deshalb $ der_Spion?'}
+{$RACE_ARG_GRAM, 'item':'30-33-26', $COND:'c', $STIM'Wem verdeutlichte das damals der_Psychologe $ des_Rauchers?'}
+{$RACE_ARG_GRAM,   'item':'13-22-10', $COND:'i', $STIM'Wem erläuterte das damals $ der_Wissenschaftler?'}
+{$RACE_ARG_GRAM, 'item':'9-15-22', $COND:'b', $STIM'Was empfahl der_Dolmetscher damals $ dem_Polen?'}
+{$RACE_ARG_GRAM,   'item':'32-3-38', $COND:'i', $STIM'Wem verkaufte das damals $ der_Händler?'}
+{$RACE_ARG_UNGRAM, 'item':'14-2-35', $COND:'f', $STIM'Was ermöglichte der_Anwalt damals $ des_Unternehmers?'}
+{$RACE_ARG_GRAM, 'item':'3-8-25', $COND:'c', $STIM'Wem beschrieb das damals der_Besucher $ des_Psychologen?'}
+{$RACE_ARG_GRAM, 'item':'33-19-34', $COND:'c', $STIM'Wem verriet das damals der_Fitnesstrainer $ des_Tänzers?'}
+{$RACE_ARG_UNGRAM, 'item':'31-38-38', $COND:'e', $STIM'Wem verheimlichte das deshalb der_Vermieter $ dem_Verrückten?'}
+{$RACE_ARG_UNGRAM, 'item':'34-6-5', $COND:'f', $STIM'Was verschwieg der_Azubi deshalb $ des_Bäckers?'}
+{$RACE_ARG_UNGRAM, 'item':'11-9-8', $COND:'e', $STIM'Wem erklärte das damals der_Biograf $ dem_Dichter?'}
+{$RACE_ARG_GRAM, 'item':'19-21-36', $COND:'a', $STIM'Was lieferte deshalb der_Gehilfe $ der_Verkäuferin?'}
+{$RACE_ARG_GRAM, 'item':'8-40-14', $COND:'a', $STIM'Was demonstrierte deshalb der_Yogalehrer $ der_Inderin?'}
+{$RACE_ARG_UNGRAM, 'item':'5-32-32', $COND:'e', $STIM'Wem bewies das damals der_Professor $ dem_Studenten?'}
+{$RACE_ARG_GRAM,   'item':'37-21-6', $COND:'i', $STIM'Wem verweigerte das deshalb $ der_Prinz?'}
+{$RACE_ARG_UNGRAM, 'item':'4-3-7', $COND:'f', $STIM'Was bestellte der_Apotheker damals $ des_Chemikers?'}

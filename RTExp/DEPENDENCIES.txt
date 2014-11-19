@@ -1,0 +1,7 @@
+Python:
+- VisionEgg
+- PyGame
+- PyAudio
+
+C/C++:
+- PortAudio
